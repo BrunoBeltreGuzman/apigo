@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
        "users": [
               {
@@ -20,3 +21,27 @@
               }
        ]
 }
+=======
+{
+       "users": [
+              {
+                     "name": "Elliot",
+                     "type": "Reader",
+                     "age": 23,
+                     "social": {
+                            "facebook": "https://facebook.com",
+                            "twitter": "https://twitter.com"
+                     }
+              },
+              {
+                     "name": "Fraser",
+                     "type": "Author",
+                     "age": 17,
+                     "social": {
+                            "facebook": "https://facebook.com",
+                            "twitter": "https://twitter.com"
+                     }
+              }
+       ]
+}
+>>>>>>> 5de4841c7bfb23a45949f3a77640c1bd0421895a

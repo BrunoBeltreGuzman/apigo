@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 init:
 $ go mod init api-rest-go
@@ -5,3 +6,12 @@ $ go mod init api-rest-go
 gorilla:
 $ go get -u github.com/gorilla/mux
 
+=======
+
+init:
+$ go mod init api-rest-go
+
+gorilla:
+$ go get -u github.com/gorilla/mux
+
+>>>>>>> 5de4841c7bfb23a45949f3a77640c1bd0421895a
