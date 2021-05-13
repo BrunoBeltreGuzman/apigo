@@ -14,5 +14,10 @@ func GetRouters() (r *mux.Router) {
 	routers.HandleFunc("/users/{id}", api.UpdateUsers).Methods("PUT")
 	routers.HandleFunc("/users/{id}", api.DeleteUsers).Methods("DELETE")
 
+	routers.HandleFunc("/parameters/{id}", api.GetParameters).Methods("GET")
+	routers.HandleFunc("/parameters/{id}", api.PostParameters).Methods("POST")
+	routers.HandleFunc("/parameters/{id}", api.PutParameters).Methods("PUT")
+	routers.HandleFunc("/parameters/{id}", api.DeleteParameters).Methods("DELETE")
+
 	return routers
 }
